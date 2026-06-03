@@ -1,10 +1,5 @@
 /* overrides.css — custom style overrides */
 
-body {
-    font-size: 64px;
-    color: green;
-}
-
 .user-role-store_admin {
     /*
     .class-name {
@@ -12,3 +7,8 @@ body {
     }
 */
 }
+
+/*body {
+    font-size: 64px;
+    color: green;
+}*/
