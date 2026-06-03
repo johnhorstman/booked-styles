@@ -1,7 +1,9 @@
 /* overrides.css — custom style overrides */
 
-font-size: 64px;
-color: white;
+body {
+  font-size: 64px;
+  color: red;
+}
 
 .user-role-store_admin {
 /*
