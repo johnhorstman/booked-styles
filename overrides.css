@@ -8,7 +8,6 @@
 */
 }
 
-/*body {
-    font-size: 64px;
-    color: green;
-}*/
+li.nav-item {
+    padding: 1px 6px 0 6px;
+}
