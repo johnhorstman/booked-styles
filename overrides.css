@@ -10,9 +10,9 @@
 
 /* Navigation menu adjustments */
 
-#block-commercenavigationmenu > li > a {
-    font-family: Cabin;
-    font-weight: 500;
+#block-commercenavigationmenu li a {
+    font-family: Cabin !important;
+    font-weight: 500 !important;
 }
 
 li.nav-item {
