@@ -48,7 +48,7 @@ li.nav-item {
 }
 
 /* Author names */
-.timber_data .timber-data-content .field--name-product_author a {
+.views-field-timber-data .timber-data-content .field--name-product_authors a {
     font-size: 0.8em;
 }
 
