@@ -1,12 +1,12 @@
 /* overrides.css — custom style overrides */
 
+/* ADMIN-ONLY TEST CLASS PROVIDED BY TIMBER - Included here as an example
 .user-role-store_admin {
-    /*
     .class-name {
         ---stuff---
     }
-*/
 }
+*/
 
 /* Navigation menu adjustments */
 
@@ -32,10 +32,31 @@ li.nav-item {
     width: 27px;
 }
 
+/* Work in progress with nav fixes
+@media (min-width: 990px) and (min-device-width: 990px) {
+    .sf-depth-1 {
+        width: auto;
+    }
+
+    header ul.sf-menu a.sf-depth-1 {
+        padding: 15px 30px;
+    }
+
+    .navbar .nav-icon-wrapper {
+        justify-content: right;
+    }
+
+    .region-nav-main {
+        justify-content: space-between;
+    }
+}
+*/
+
 /* PRODUCT SEARCH */
 
 /* Book titles */
 .timber_data .timber-data-content .timber-data-field-title a {
+    line-clamp: 2;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
@@ -55,4 +76,10 @@ li.nav-item {
 /* Pre-order indicator */
 .preorder_message {
     margin-top: 0.25em;
+}
+
+/* Remove publisher and ISBN from carousel book listings, per Abby's request on 06/16 Tuesday */
+.field--label-inline.field--name-product_sku,
+.field--label-inline.field--name-product_publisher {
+    display: none;
 }
