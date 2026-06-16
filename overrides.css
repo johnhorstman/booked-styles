@@ -10,6 +10,10 @@
 
 /* Navigation menu adjustments */
 
+#block-commercenavigationmenu > li > a {
+    font-family: Cabin;
+}
+
 li.nav-item {
     padding: 1px 6px 0 6px;
 }
