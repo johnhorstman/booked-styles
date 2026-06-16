@@ -8,6 +8,8 @@
 */
 }
 
+/* Navigation menu adjustments */
+
 li.nav-item {
     padding: 1px 6px 0 6px;
 }
@@ -15,4 +17,8 @@ li.nav-item {
 .ada-icon.contact {
     margin-left: 0 !important;
     margin-right: 0 !important;
+}
+
+#cat-menu-button:hover {
+    transform: translateX(0);
 }
