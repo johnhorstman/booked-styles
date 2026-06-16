@@ -12,6 +12,7 @@
 
 #block-commercenavigationmenu > li > a {
     font-family: Cabin;
+    font-weight: 500;
 }
 
 li.nav-item {
@@ -28,7 +29,7 @@ li.nav-item {
 }
 
 #cat-menu-button.ada-icon i {
-    width: 28px;
+    width: 27px;
 }
 
 /* PRODUCT SEARCH */
@@ -47,7 +48,7 @@ a.timber_data.timber-data-content.timber-data-field-title {
 }
 
 /* Author names */
-.timber_data.timber-data-content.field--name-product_author {
+a.timber_data.timber-data-content.field--name-product_author {
     font-size: 0.8em;
 }
 
