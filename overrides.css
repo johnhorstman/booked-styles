@@ -20,5 +20,9 @@ li.nav-item {
 }
 
 #cat-menu-button:hover {
-    transform: translateX(0);
+    transform: translateX(0) !important;
+}
+
+#cat-menu-button.ada-icon i {
+    width: 28px;
 }
