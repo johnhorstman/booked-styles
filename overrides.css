@@ -26,3 +26,21 @@ li.nav-item {
 #cat-menu-button.ada-icon i {
     width: 28px;
 }
+
+/* Product search */
+
+.timber_data .timber-data-content .timber-data-field-title a {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    max-width: 100%;
+    padding: 0;
+    margin-bottom: 0.5em;
+    font-size: 0.8em;
+    line-height: 1.2;
+}
+
+.preorder_message {
+    margin-top: 0.25em;
+}
