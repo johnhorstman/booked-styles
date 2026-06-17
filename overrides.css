@@ -84,7 +84,7 @@ li.nav-item {
     display: none;
 }
 
-/* Calendar */
+/* CALENDAR */
 
 .fc-event {
     font-size: 0.7em;
@@ -106,4 +106,16 @@ li.nav-item {
 
 p.calendar-event-title {
     margin-bottom: 0.5em;
+}
+
+/* FOOTER */
+
+.region-footer {
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.timber-footer-address {
+    margin-top: 0;
+    padding: 0;
 }
