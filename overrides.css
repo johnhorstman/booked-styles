@@ -121,6 +121,6 @@ h1 span.field--name-title {
 }
 
 .timber-footer-address {
-    margin-top: 0;
+    margin-top: 0 !important;
     padding: 0;
 }
