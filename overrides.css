@@ -108,6 +108,11 @@ p.calendar-event-title {
     margin-bottom: 0.5em;
 }
 
+/* Prevent descenders from getting cut off on page titles in event pages */
+h1 span.field--name-title {
+    padding-bottom: 0.1em;
+}
+
 /* FOOTER */
 
 .region-footer {
