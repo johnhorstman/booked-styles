@@ -32,25 +32,19 @@ li.nav-item {
     width: 27px;
 }
 
-/* Work in progress with nav fixes
 @media (min-width: 990px) and (min-device-width: 990px) {
-    .sf-depth-1 {
-        width: auto;
+    .region-nav-main {
+        justify-content: space-between;
     }
 
-    header ul.sf-menu a.sf-depth-1 {
-        padding: 15px 30px;
+    .sf-depth-1 {
+        width: 130px;
     }
 
     .navbar .nav-icon-wrapper {
         justify-content: right;
     }
-
-    .region-nav-main {
-        justify-content: space-between;
-    }
 }
-*/
 
 /* PRODUCT SEARCH */
 
@@ -130,7 +124,12 @@ footer ul.nav.navbar-nav li a {
 
 .timber-footer-address {
     padding: 0;
-    .layout {
+    /*.layout {
         margin-top: -15px;
-    }
+    }*/
+}
+
+#block-timberfootertag {
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
