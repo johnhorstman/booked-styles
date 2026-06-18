@@ -156,9 +156,11 @@ footer ul.nav.navbar-nav li a {
 
 .timber-footer-address {
     padding: 0;
-    /*.layout {
-        margin-top: -15px;
-    }*/
+    margin-top: 0 !important;
+}
+
+#block-timberstorehours {
+    margin-bottom: 20px;
 }
 
 #block-timberfootertag {
