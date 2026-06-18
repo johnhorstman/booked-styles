@@ -34,6 +34,15 @@ li.nav-item {
 
     header ul.menu a.is-active {
         font-weight: 700 !important;
+        color: white;
+        &.sf-depth-1 {
+            border-bottom: 3px solid var (--accent-1);
+            margin-bottom: -3px;
+        }
+        &.sf-depth-2 {
+            border-left: 3px solid var (--accent-1);
+            padding-left: 7px;
+        }
     }
 
     .region-nav-main {
