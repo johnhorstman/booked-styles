@@ -115,14 +115,12 @@ h1 span.field--name-title {
 
 /* FOOTER */
 
-/*
 .region-footer {
-    align-items: flex-start;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 .timber-footer-address {
     margin-top: 0 !important;
     padding: 0;
 }
-*/
