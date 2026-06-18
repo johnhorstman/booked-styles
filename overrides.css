@@ -9,7 +9,12 @@
 */
 
 .notfront main .region-content {
-    margin-top: 20px;
+    margin-top: 30px;
+}
+@media (min-width: 990px) and (min-device-width: 990px) {
+    .notfront main .region-content {
+        margin-top: 50px;
+    }
 }
 
 /* NAVIGATION MENU ADJUSTMENTS */
