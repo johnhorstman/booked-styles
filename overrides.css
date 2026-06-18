@@ -118,9 +118,19 @@ h1 span.field--name-title {
 .region-footer {
     justify-content: space-between;
     align-items: flex-start;
+    .nav-item {
+        margin: 0 auto;
+    }
+}
+
+footer ul.nav.navbar-nav li a {
+    padding-top: 0;
+    margin-left: 0;
 }
 
 .timber-footer-address {
-    margin-top: 0 !important;
     padding: 0;
+    .layout {
+        margin-top: -15px;
+    }
 }
