@@ -8,7 +8,11 @@
 }
 */
 
-/* Navigation menu adjustments */
+.notfront main .region-content {
+    margin-top: 20px;
+}
+
+/* NAVIGATION MENU ADJUSTMENTS */
 
 li.nav-item {
     padding: 1px 6px 0 6px;
@@ -27,6 +31,17 @@ li.nav-item {
     width: 27px;
 }
 
+/* Reduce nav menu height on mobile */
+
+.timber-header-autocomplete-search {
+    display: none;
+}
+
+.navbar .nav-icon-wrapper {
+    top: 10px;
+}
+
+/* More nav fixes but only at screens larger than mobile */
 @media (min-width: 990px) and (min-device-width: 990px) {
     #block-commercenavigationmenu li a {
         font-family: Cabin;
