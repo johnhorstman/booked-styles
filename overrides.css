@@ -10,11 +10,6 @@
 
 /* Navigation menu adjustments */
 
-#block-commercenavigationmenu li a {
-    font-family: Cabin !important;
-    font-weight: 500 !important;
-}
-
 li.nav-item {
     padding: 1px 6px 0 6px;
 }
@@ -33,6 +28,14 @@ li.nav-item {
 }
 
 @media (min-width: 990px) and (min-device-width: 990px) {
+    #block-commercenavigationmenu li a {
+        font-family: Cabin;
+    }
+
+    header ul.menu a.is-active {
+        font-weight: 700 !important;
+    }
+
     .region-nav-main {
         justify-content: space-between;
     }
