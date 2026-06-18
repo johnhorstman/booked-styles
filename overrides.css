@@ -116,7 +116,7 @@ li.nav-item {
     font-weight: 400;
 }
 
-.fc-day-grid-event .fc-content {
+.fc-day-grid-event .fc-content .calendar-event-title {
     line-clamp: 2;
     display: -webkit-box;
     -webkit-line-clamp: 2;
