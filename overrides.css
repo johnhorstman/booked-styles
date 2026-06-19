@@ -23,6 +23,10 @@ li.nav-item {
     padding: 1px 6px 0 6px;
 }
 
+.search-icon {
+    padding: 0 !important;
+}
+
 .ada-icon.contact {
     margin-left: 0;
     margin-right: 0;
