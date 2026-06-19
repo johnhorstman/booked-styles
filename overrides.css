@@ -40,6 +40,15 @@ li.nav-item {
     width: 27px;
 }
 
+.block-commerce-cart-wrapper {
+    margin-left: 10px;
+}
+@media (min-width: 990px) and (min-device-width: 990px) {
+    .block-commerce-cart-wrapper {
+        margin-left: 0;
+    }
+}
+
 /* Reduce nav menu height on mobile */
 
 .timber-header-autocomplete-search {
