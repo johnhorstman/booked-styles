@@ -156,9 +156,9 @@ h1 span.field--name-title {
         text-transform: capitalize;
     }
 }
+/* Adjust padding so the navigation links vertically align with other footer content */
 footer ul.nav.navbar-nav li a {
     padding-top: 0;
-    margin-left: 0;
 }
 .timber-footer-address {
     padding: 0;
