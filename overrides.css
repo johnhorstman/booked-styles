@@ -155,6 +155,10 @@ h1 span.field--name-title {
     .times {
         text-transform: capitalize;
     }
+    /* Remove the Contact Us link that's a duplicate of the one in the nav links */
+    #block-footeraddress p > a {
+        display: none;
+    }
 }
 /* Adjust padding so the navigation links vertically align with other footer content */
 footer ul.nav.navbar-nav li a {
