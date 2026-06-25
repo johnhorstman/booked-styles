@@ -151,6 +151,10 @@ h1 span.field--name-title {
     .nav-item {
         margin: 0 auto;
     }
+    /* Capitalize the word "closed" */
+    .times {
+        text-transform: capitalize;
+    }
 }
 footer ul.nav.navbar-nav li a {
     padding-top: 0;
